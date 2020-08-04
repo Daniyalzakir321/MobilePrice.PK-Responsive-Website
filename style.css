@@ -1,0 +1,602 @@
+*{
+    font-family:Arial ;
+}
+body{
+    background-color:  #ffffff;
+    overflow-x:hidden ;
+  }
+
+
+
+/* Navbar */
+
+
+@media only screen and (max-width: 800px) {
+  
+    .nav-link{
+      padding-top:8px !important ;
+      padding-bottom:8px !important ;
+    }
+
+    nav div span ul li {
+      font-size: 16px !important;
+      border-radius: 18px !important; 
+ }
+
+ #linkimage{
+  padding-left: 25px !important;
+  }
+  
+  #home{
+    background-color:#fafafa; 
+    margin-right: 0px;
+  }
+
+}
+
+
+
+#maindivnav{
+  background-color: #212121 !important;
+   margin: 0px 0px; 
+} 
+
+nav{
+background-color: #212121 !important;
+padding-top: 0px !important;
+padding-bottom: 0px !important;
+}
+.nav-link{
+  padding-top:7px !important ;
+  padding-bottom:7px !important ;
+  color: black;
+}
+#home{
+    background-color:#fafafa; 
+    margin-right: 5px;
+  }
+nav div span ul li a:hover {
+    background-color: #fafafa;   
+
+}
+#white a:hover{
+    color: rgb(0, 0, 0);
+    opacity: 0.99;
+} 
+#white a{
+  color: #fafafa; 
+  opacity: 0.94;
+}
+nav div span ul li a{
+     font-size: 15px ;
+     font-weight: bold;
+     padding: 0px 6px 0px 6px;
+     border-radius: 20px ; 
+     margin: 0px 1px 0px 1px;
+}
+
+nav div span ul li {
+  font-size: 15px ;
+  font-weight: bold;
+  border-radius: 20px ; 
+  margin: 1px 2px 1px 2px;
+}
+
+
+
+@media only screen and (max-width: 990px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 600px !important;   
+}
+}
+@media only screen and (max-width: 850px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 600px !important;   
+}
+}
+@media only screen and (max-width: 780px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 550px !important;   
+}
+}
+@media only screen and (max-width: 765px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 500px !important;   
+}
+}
+@media only screen and (max-width: 750px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 490px !important;   
+  }
+}
+/* a */
+@media only screen and (max-width: 725px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 470px !important;   
+}
+
+}
+@media only screen and (max-width: 700px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 450px !important;   
+}
+}
+@media only screen and (max-width: 650px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 430px !important;   
+}
+}
+/*  */
+@media only screen and (max-width: 600px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 420px !important;   
+}
+
+}
+@media only screen and (max-width: 550px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 390px !important;
+}
+}
+/*  */
+@media only screen and (max-width: 520px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 380px !important;   
+  }
+}
+@media only screen and (max-width: 500px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 350px !important;
+}
+}
+@media only screen and (max-width: 450px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 300px !important;
+}
+}
+/*  */
+@media only screen and (max-width: 425px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 280px !important;
+}
+}
+@media only screen and (max-width: 400px) {
+  nav div span ul li a{
+    padding-left: 20px !important;
+    padding-right: 250px !important;
+}
+}
+/*  */
+@media only screen and (max-width: 375px) {
+  nav div span ul li a{
+    padding-left: 15px !important;
+    padding-right: 240px !important;
+}
+}
+@media only screen and (max-width: 350px) {
+  nav div span ul li a{
+    padding-left: 15px !important;
+    padding-right: 215px !important;
+}
+}
+/* */
+@media only screen and (max-width: 325px) {
+  nav div span ul li a{
+    padding-left: 15px !important;
+    padding-right: 200px !important;
+}
+}
+@media only screen and (max-width: 300px) {
+  nav div span ul li a{
+    padding-left: 13px !important;
+    padding-right: 170px !important;
+}
+}
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+/* Slider */
+@media only screen and (max-width: 800px) {
+
+  #slidermargin{
+    margin-bottom: -23px !important;
+    margin-left: -25px !important;
+  }
+  
+  #mobilename{
+    color: rgb(255, 255, 255);
+    text-align: left !important;
+    font-size: 14px !important;
+    font-family: 'ubuntu';
+    text-align: left !important;
+    margin-bottom: 1px !important;
+  }
+  #mobilestory{
+    color: rgb(255, 255, 255);
+    font-size: 11px !important;
+    font-family: 'ubuntu';
+    text-align: left !important;
+    margin-bottom: 1px !important;
+  }
+ 
+  #mobilebutton{
+    padding: 2px 4px !important;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 251, 251);
+    border-radius: 5px;
+    font-size: 8px !important;
+    margin: 0px 300px 0px 0px !important;
+  }
+}
+
+
+
+#slidermargin{
+  margin-bottom: 40px;
+  margin-left: -10px;
+}
+
+#mobilename{
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 37px;
+  font-family: 'ubuntu';
+}
+#mobilestory{
+  color: rgb(255, 255, 255);
+  font-size: 27px;
+  font-family: 'ubuntu';
+}
+#mobilebutton:hover{
+  cursor: pointer;
+  background-color: rgba(175, 173, 173, 0);
+  opacity: 0.8;
+}
+#mobilebutton{
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 251, 251);
+  border-radius: 5px;
+  font-size: 13px;
+
+}
+#explorediv{
+margin: 0px 105px 0px 0px;
+}
+/*  */
+
+
+
+
+/* Headlines */
+
+@media only screen and (max-width: 1000px) { 
+       
+  .downslider>p{
+          background-color:   #1c2225;
+          text-align: center;
+          color:white;
+          padding: 4px 6px 2px 6px;
+          margin: 15px 13px !important;
+          font-size: 13px;
+          height: 28px;
+          
+      }
+    }
+
+.downslider>p{
+  background-color:  #2f393d;
+
+  text-align: center;
+  color:white;
+  padding: 2px 6px 2px 6px;
+  margin: 10px 15px;
+  height: 28px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*  */
+
+
+
+/* Featured Phones */
+@media only screen and (max-width: 800px) {
+  #fp {
+      font-size: 30px !important;
+      text-align: center !important;
+  }
+  #samsung>span,#apple>span,#oppo>span{
+    font-size: 34px !important;
+  }
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(fonts/Ubuntu-Bold.ttf);
+}
+
+#fp{
+  font-family: 'Ubuntu' !important;
+  color: #263238;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+
+}
+
+
+/*  */
+
+
+
+
+
+
+/* Card 1 */
+@media only screen and (max-width: 700px) {
+.card{
+  width:10rem !important;
+}  
+
+#button-card{
+  font-size: 11.5px !important; 
+}
+}
+
+#carddiv:hover{
+  border: 1px solid gray;
+  box-shadow: 1px 1px 7px gray;
+ cursor: pointer;
+ background-color: rgb(245, 245, 245);
+
+}
+#carddiv{
+  margin: 1px 10px;
+  background-color: rgb(252, 250, 248);
+}
+.card-text:hover{
+  text-shadow: 3px 3px 6px rgb(194, 193, 193);
+}
+#button-card:hover{
+  color: white !important;
+}
+
+/*  */
+
+
+
+
+
+
+
+
+
+/* Brands */
+
+/*  */
+
+
+
+
+
+/*Projects  */
+/*Numbers Changing Without JS  */
+
+
+@font-face {
+  font-family: poppins;
+  src: url(fonts/Poppins-Bold.ttf);
+}
+
+
+@media only screen and (max-width: 800px) 
+{
+ 
+  #padding{ 
+  padding: 30px 20px 10px 20px !important;
+  margin: 8px 20px 8px 20px !important;
+  }
+  
+  .b{
+  color: black;
+  font-size: 46px !important;
+  }
+  
+  .c{
+      text-align: center;
+      color: black;
+      font-weight: bold;
+      font-size: 16px;
+    
+  }
+
+}
+
+#subcontainer>div{
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#padding{
+text-align: center;
+padding: 30px 142px 15px 142px;
+margin: 0px 20px 0px 20px;
+box-shadow: 1px 1px 5px gray;
+border-radius: 8px;
+}
+
+.b{
+color: black;
+font-family:'Poppins', sans-serif;
+
+font-size: 50px;
+}
+
+.c{
+font-family: 'Poppins', sans-serif;
+color: black;
+font-weight: bold;
+font-size: 16px;
+text-transform: uppercase;
+}
+
+
+/*  */
+
+
+
+
+
+
+
+/* Image Gallery */
+
+@media only screen and (max-width: 800px) {
+
+.image {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 15px !important;
+}
+  
+.overlay {
+  height: 98% !important;
+}
+
+}
+
+
+.container1 {
+  position: relative;
+  width: 50%;
+ 
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.container1:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  font-family:'Ubuntu', sans-serif;
+
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*  */
+
+
+
+
+
+
+
+/* Footer */
+@media only screen and (max-width: 800px) {
+  #footercolorblue{
+    background-color: #3d5afe !important;
+  }
+}
+
+#footercolorblue{
+  background-color: #3d5afe !important;
+}
+/*  */
+
+
+
+
+
+
+
+
+/*Back To Top Icon  */
+
+#btt{
+  position: fixed;
+  right: 2px;
+  bottom: 5px;
+  
+  border-radius: 80px;
+  height: 40px;
+  width: 40px;
+  opacity: 0.7;
+ 
+  }
+  #btt:hover{
+    background-color: rgb(197, 193, 193);
+    color: white;
+  }
+  
+  
+  @media only screen and (max-width: 600px) 
+  {
+      #btt{ 
+          position: fixed;
+          right: 8px;
+          bottom: 10px;
+          width: 25px;
+          height: 25px;
+          border-radius: 80px;
+          opacity: 0.6;
+          
+          }
+  
+  }
+  /*  */
